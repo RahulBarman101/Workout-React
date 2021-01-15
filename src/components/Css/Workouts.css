@@ -15,8 +15,14 @@
 }
 
 .tt {
-    padding-top: 7rem;
+    padding-top: 3rem;
     color: white;
     margin-bottom: 4rem;
     font-size: 5rem;
+}
+
+.workoutCTA {
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
 }

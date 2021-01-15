@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import '../Css/Workouts.css'
 import Card from './Card';
+import { Link } from 'react-router-dom';
 
 function Workouts() {
     const [workouts, setWorkouts] = useState([
@@ -54,6 +55,9 @@ function Workouts() {
             return <Card key={item.id} name={item.name} img={item.img} />;
           })}
         </div>
+        <Link to="/work">
+          <button type='button' className='workoutCTA'>START WORKOUT</button> 
+        </Link>
       </div>
     );
 }
